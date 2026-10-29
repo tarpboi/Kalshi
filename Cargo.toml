@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 description = "Kalshi trading bot — built on the Prediction Market Toolkits engine."
-repository = "https://github.com/HarrierOnChain/Kalshi"
+repository = "https://github.com/tarpboi/Kalshi"
 
 [[bin]]
 name = "kalshi-bot"
@@ -12,7 +12,7 @@ path = "src/main.rs"
 
 [dependencies]
 # Shared execution core, risk layer, and strategy implementations.
-polymarket-toolkits = { git = "https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits" }
+polymarket-toolkits = { git = "https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits" }
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal"] }
 clap = { version = "4", features = ["derive"] }
 anyhow = "1"

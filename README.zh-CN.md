@@ -3,12 +3,12 @@
 **🌐 Language / 语言 / Язык:** [English](README.md) · [简体中文](README.zh-CN.md) · [Русский](README.ru.md)
 
 ![Status](https://img.shields.io/badge/status-🟢_live-2ea44f?style=flat-square)
-[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)
+[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![CI](https://github.com/HarrierOnChain/Kalshi/actions/workflows/ci.yml/badge.svg)](https://github.com/HarrierOnChain/Kalshi/actions/workflows/ci.yml)
+[![CI](https://github.com/tarpboi/Kalshi/actions/workflows/ci.yml/badge.svg)](https://github.com/tarpboi/Kalshi/actions/workflows/ci.yml)
 
-> 自动化 **Kalshi 交易机器人** — 受 CFTC 监管（美国）。隶属 [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) 套件：一个执行核心，一个风控层，覆盖所有平台。
+> 自动化 **Kalshi 交易机器人** — 受 CFTC 监管（美国）。隶属 [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) 套件：一个执行核心，一个风控层，覆盖所有平台。
 
 **Kalshi** 现已在生产环境中**正式上线**。
 
@@ -41,7 +41,7 @@
 | 📈 **价差收割** — 上千笔 0.5 美分的小赢累积成一个大数字 |
 | 🏆 **体育执行** — 点击、成交、完成 — 50 毫秒以内 FAK |
 
-> 想要 Kalshi 上未列出的策略？适配器覆盖按需驱动 — [联系我们](https://t.me/HarrierOnChain)。
+> 想要 Kalshi 上未列出的策略？适配器覆盖按需驱动 — [联系我们](https://t.me/tarpboi)。
 
 ---
 
@@ -50,7 +50,7 @@
 克隆仓库、填入密钥、运行 —— TUI 让你选择策略。
 
 ```bash
-git clone https://github.com/HarrierOnChain/Kalshi.git
+git clone https://github.com/tarpboi/Kalshi.git
 cd Kalshi
 cp config.example.yaml config.yaml   # add your keys
 cargo run --release                  # launch the TUI
@@ -63,7 +63,7 @@ cargo run --release                  # launch the TUI
 
 本仓库是 **Kalshi** 的入口。执行核心、风控层以及全部 20+ 个平台适配器都位于主工具包中：
 
-### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)** — 完整套件
+### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)** — 完整套件
 
 | | |
 |---|---|
@@ -80,9 +80,9 @@ cargo run --release                  # launch the TUI
 
 | 平台 | 链接 |
 |----------|------|
-| **完整工具包** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) |
-| **Telegram** | [@HarrierOnChain](https://t.me/HarrierOnChain) |
-| **讨论区** | [GitHub Discussions](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
+| **完整工具包** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) |
+| **Telegram** | [@tarpboi](https://t.me/tarpboi) |
+| **讨论区** | [GitHub Discussions](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
 
 *通常在数小时内回复。*
 
@@ -90,9 +90,9 @@ cargo run --release                  # launch the TUI
 
 ## 相关平台
 
-[Polymarket](https://github.com/HarrierOnChain/Polymarket) · [Interactive Brokers ForecastTrader](https://github.com/HarrierOnChain/Interactive-Brokers-ForecastTrader) · [Limitless](https://github.com/HarrierOnChain/Limitless-Exchange) · [OG.com](https://github.com/HarrierOnChain/OG.com)
+[Polymarket](https://github.com/tarpboi/Polymarket) · [Interactive Brokers ForecastTrader](https://github.com/tarpboi/Interactive-Brokers-ForecastTrader) · [Limitless](https://github.com/tarpboi/Limitless-Exchange) · [OG.com](https://github.com/tarpboi/OG.com)
 
-> 在[主工具包 →](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)中浏览完整平台目录
+> 在[主工具包 →](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)中浏览完整平台目录
 
 ---
 
@@ -104,8 +104,8 @@ cargo run --release                  # launch the TUI
 
 <div align="center">
 
-**Kalshi 交易机器人 · 基于 [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) 引擎构建**
+**Kalshi 交易机器人 · 基于 [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) 引擎构建**
 
-[![Telegram](https://img.shields.io/badge/Telegram-@HarrierOnChain-26A5E4?style=flat-square&logo=telegram)](https://t.me/HarrierOnChain)
+[![Telegram](https://img.shields.io/badge/Telegram-@tarpboi-26A5E4?style=flat-square&logo=telegram)](https://t.me/tarpboi)
 
 </div>

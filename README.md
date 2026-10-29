@@ -3,12 +3,12 @@
 **🌐 Language / 语言 / Язык:** [English](README.md) · [简体中文](README.zh-CN.md) · [Русский](README.ru.md)
 
 ![Status](https://img.shields.io/badge/status-🟢_live-2ea44f?style=flat-square)
-[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)
+[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![CI](https://github.com/HarrierOnChain/Kalshi/actions/workflows/ci.yml/badge.svg)](https://github.com/HarrierOnChain/Kalshi/actions/workflows/ci.yml)
+[![CI](https://github.com/tarpboi/Kalshi/actions/workflows/ci.yml/badge.svg)](https://github.com/tarpboi/Kalshi/actions/workflows/ci.yml)
 
-> Automated **Kalshi trading bot** — CFTC-regulated (US). Part of the [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) suite: one execution core, one risk layer, every venue.
+> Automated **Kalshi trading bot** — CFTC-regulated (US). Part of the [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) suite: one execution core, one risk layer, every venue.
 
 **Kalshi** is **live in production today.**
 
@@ -41,7 +41,7 @@ These bots run on Kalshi through a single venue adapter on the shared engine —
 | 📈 **Spread Farming** — a thousand 0.5¢ wins compound into one number |
 | 🏆 **Sports Execution** — click, filled, done — under 50ms FAK |
 
-> Want a strategy not listed here on Kalshi? Adapter coverage is demand-driven — [ask](https://t.me/HarrierOnChain).
+> Want a strategy not listed here on Kalshi? Adapter coverage is demand-driven — [ask](https://t.me/tarpboi).
 
 ---
 
@@ -50,7 +50,7 @@ These bots run on Kalshi through a single venue adapter on the shared engine —
 Clone, drop in your keys, and run — the TUI lets you pick a strategy.
 
 ```bash
-git clone https://github.com/HarrierOnChain/Kalshi.git
+git clone https://github.com/tarpboi/Kalshi.git
 cd Kalshi
 cp config.example.yaml config.yaml   # add your keys
 cargo run --release                  # launch the TUI
@@ -63,7 +63,7 @@ cargo run --release                  # launch the TUI
 
 This repo is the **Kalshi** entry point. The execution core, risk layer, and all 20+ venue adapters live in the main toolkit:
 
-### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)** — the full suite
+### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)** — the full suite
 
 | | |
 |---|---|
@@ -80,9 +80,9 @@ Adding a venue means writing **one adapter** — not rebuilding a bot.
 
 | Platform | Link |
 |----------|------|
-| **Full toolkit** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) |
-| **Telegram** | [@HarrierOnChain](https://t.me/HarrierOnChain) |
-| **Discussions** | [GitHub Discussions](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
+| **Full toolkit** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) |
+| **Telegram** | [@tarpboi](https://t.me/tarpboi) |
+| **Discussions** | [GitHub Discussions](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
 
 *Response time is typically within a few hours.*
 
@@ -90,9 +90,9 @@ Adding a venue means writing **one adapter** — not rebuilding a bot.
 
 ## Related venues
 
-[Polymarket](https://github.com/HarrierOnChain/Polymarket) · [Interactive Brokers ForecastTrader](https://github.com/HarrierOnChain/Interactive-Brokers-ForecastTrader) · [Limitless](https://github.com/HarrierOnChain/Limitless-Exchange) · [OG.com](https://github.com/HarrierOnChain/OG.com)
+[Polymarket](https://github.com/tarpboi/Polymarket) · [Interactive Brokers ForecastTrader](https://github.com/tarpboi/Interactive-Brokers-ForecastTrader) · [Limitless](https://github.com/tarpboi/Limitless-Exchange) · [OG.com](https://github.com/tarpboi/OG.com)
 
-> Browse the full venue directory in the [main toolkit →](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)
+> Browse the full venue directory in the [main toolkit →](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)
 
 ---
 
@@ -104,8 +104,8 @@ Adding a venue means writing **one adapter** — not rebuilding a bot.
 
 <div align="center">
 
-**Kalshi trading bot · built on the [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) engine**
+**Kalshi trading bot · built on the [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) engine**
 
-[![Telegram](https://img.shields.io/badge/Telegram-@HarrierOnChain-26A5E4?style=flat-square&logo=telegram)](https://t.me/HarrierOnChain)
+[![Telegram](https://img.shields.io/badge/Telegram-@tarpboi-26A5E4?style=flat-square&logo=telegram)](https://t.me/tarpboi)
 
 </div>

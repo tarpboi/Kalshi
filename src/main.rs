@@ -1,7 +1,7 @@
 //! Trading bot entry point — a venue-scoped launcher on the
 //! Prediction Market Toolkits engine. The execution core, risk layer, and
 //! strategy implementations live in the shared engine crate:
-//!   https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits
+//!   https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits
 
 mod venue;
 
