@@ -9,7 +9,7 @@ pub const NAME: &str = "Kalshi";
 /// Venue category.
 pub const VENUE_TYPE: &str = "CFTC-regulated (US)";
 
-/// Strategies this venue runs on the shared engine.
+/// Strategies mapped to this venue on the shared engine.
 pub const STRATEGIES: &[&str] = &[
     "Cross-Market Arbitrage",
     "Resolution Sniper",
