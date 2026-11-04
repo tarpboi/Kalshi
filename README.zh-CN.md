@@ -9,7 +9,7 @@
 
 > **Kalshi 交易机器人** — 受 CFTC 监管（美国）。隶属 [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) 套件：一个执行核心，一个风控层，覆盖所有平台。
 
-**Kalshi** 已映射到共享引擎，但适配器尚未接入。本仓库保存平台元数据；交易代码位于主工具包，目前仅在 Polymarket 上执行。
+**Kalshi** 已映射到共享引擎，但适配器尚未接入。本仓库保存平台元数据；交易代码位于主工具包，目前已有 Predict.fun 和 Polymarket 适配器。
 
 ---
 
@@ -33,7 +33,7 @@
 
 ## 快速开始
 
-交易代码位于主工具包。克隆它、填入密钥，并从空跑开始。目前运行于 Polymarket。
+交易代码位于主工具包。克隆它、填入密钥，并从空跑开始。目前已有 Predict.fun 和 Polymarket 适配器。
 
 ```bash
 git clone https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits.git
