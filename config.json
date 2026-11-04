@@ -1,4 +1,5 @@
 {
+  "venue": "polymarket",
   "bot": {
     "wallets_to_track": ["0x63ce342161250d705dc0b16df89036c8e5f9ba9a"],
     "enable_trading": false,
@@ -44,6 +45,22 @@
     "chain_id": 137,
     "domain_name": "Polymarket CTF Exchange",
     "domain_version": "1"
+  },
+  "strategies": {
+    "_comment": "Applies to every strategy except copy trading. Limits are in USD and are hard caps.",
+    "poll_secs": 5,
+    "rescan_secs": 300,
+    "quote_ttl_secs": 300,
+    "limits": {
+      "max_order_usd": 5.0,
+      "max_market_usd": 25.0,
+      "max_total_usd": 100.0,
+      "max_loss_usd": 25.0
+    }
+  },
+  "predict_fun": {
+    "network": "testnet",
+    "wallets_to_track": []
   },
   "filters": {
     "_comment_mode": "Strict allowlist: when any *_allow list is non-empty, only matching markets are copied. Block lists always win.",

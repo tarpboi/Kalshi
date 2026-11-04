@@ -20,12 +20,12 @@ These are the strategies mapped to Kalshi. They run here once its adapter is wir
 | Strategy |
 |----------|
 | 💰 **Cross-Market Arbitrage** — lock the spread, not the direction |
-| 🎯 **Resolution Sniper** — 95¢ near-certainty → guaranteed $1.00 payout |
+| 🎯 **Resolution Sniper** — buy near-certain outcomes about to end, hold to the payout |
 | 📊 **Orderbook Imbalance** — the signal *is* the order book, no external feeds |
-| 💰 **Market Making** — be the house, not the gambler (two-sided GTD, inventory skew) |
-| 🎯 **Directional Arbitrage** — arb base (Up + Down < $1), tilted toward the side with more edge |
-| 📈 **Spread Farming** — a thousand 0.5¢ wins compound into one number |
-| 🏆 **Sports Execution** — click, filled, done — FAK |
+| 💰 **Market Making** — quote both sides, leaning away from your inventory |
+| 🎯 **Directional Arbitrage** — rest Yes + No bids under $1, tilted toward the side with more edge |
+| 📈 **Spread Farming** — capture the bid-ask spread, one round trip at a time |
+| 🏆 **Sports Execution** — type it, filled, done, from the terminal |
 
 > Want a strategy not listed here on Kalshi? Adapter coverage is demand-driven — [ask](https://t.me/tarpboi).
 
